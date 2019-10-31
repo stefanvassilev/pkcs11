@@ -12,6 +12,7 @@ package pkcs11
 
 /*
 #cgo windows CFLAGS: -DPACKED_STRUCTURES
+#cgo windows LDFLAGS: -Wl,--no-as-needed
 #cgo linux LDFLAGS: -ldl
 #cgo darwin LDFLAGS: -ldl
 #cgo openbsd LDFLAGS: -ldl
